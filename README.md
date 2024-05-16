@@ -2,10 +2,10 @@
 ## AIM: 
  To simulate and synthesis multiplier using VIVADO 2023.2.
 
-**APPARATUS REQUIRED:**
+## APPARATUS REQUIRED:
 VIVADO 2023.2
   
-**PROCEDURE:**
+## PROCEDURE:
  STEP:1 Launch the Vivado 2023.2 software.<br>
  STEP:2 Click on “create project ” from the starting page of vivado.<br>
  STEP:3 Choose the design entry method:RTL(verilog/VHDL).<br>
@@ -43,20 +43,20 @@ VIVADO 2023.2
  ha adder2(w3,w4,p[2],cout);
  endmodule
 ```
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![2bitmul](https://github.com/TharunPR/VLSI-LAB-EXP-3/assets/117915125/163f3804-c192-49e9-8548-ac16251ab47c)
 
 
 
 
-**4 Bit Multiplier**
+## 4 Bit Multiplier
 ## Logic Diagram:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
 
-**Verilog Code**
+## Verilog Code
 ```
 module ha(a,b,sum,carry);
  input a,b;
@@ -115,11 +115,11 @@ endmodule
  endmodule
 ```
 
-**OUTPUT WAVEFORM:**
+## OUTPUT WAVEFORM:
 
 ![4bitmul](https://github.com/TharunPR/VLSI-LAB-EXP-3/assets/117915125/f8e4bedf-bdde-4397-893d-0d49ad94d584)
 
-**RESULT:**<br>
+## RESULT:
 &emsp;&emsp;Thus the simulation and implementation of binary multipliers is done and the outputs are verified successfully.
 
 
